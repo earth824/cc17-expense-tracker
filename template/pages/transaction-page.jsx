@@ -9,6 +9,9 @@ export default function Page() {
         {/* <CreateButton /> */}
       </div>
       {/* <TransactionList /> */}
+      <div className="mt-5 flex w-full justify-center">
+        {/* <Pagination totalPages={5} /> */}
+      </div>
     </main>
   );
 }
