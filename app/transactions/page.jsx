@@ -1,4 +1,5 @@
 import CreateButton from './_components/create-button';
+import Pagination from './_components/pagination';
 import Search from './_components/search';
 import TransactionList from './_components/transaction-list';
 
@@ -14,7 +15,7 @@ export default function Page() {
       </div>
       <TransactionList />
       <div className="mt-5 flex w-full justify-center">
-        {/* <Pagination totalPages={totalPages} /> */}
+        <Pagination totalPages={5} />
       </div>
     </main>
   );
