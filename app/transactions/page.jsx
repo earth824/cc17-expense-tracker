@@ -13,12 +13,6 @@ export default function Page() {
         <CreateButton />
       </div>
       <TransactionList />
-      {/* <Suspense key={query + currentPage} fallback={<InvoicesTableSkeleton />}>
-        <Table
-          query={searchParams?.term || ''}
-          currentPage={Number(searchParams?.page) || 1}
-        />
-      </Suspense> */}
       <div className="mt-5 flex w-full justify-center">
         {/* <Pagination totalPages={totalPages} /> */}
       </div>

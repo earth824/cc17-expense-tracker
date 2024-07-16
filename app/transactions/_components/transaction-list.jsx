@@ -28,14 +28,14 @@ export default function TransactionList() {
               </tr>
             </thead>
             <tbody className="bg-white">
-              <tr className="w-full border-b py-3 text-sm last-of-type:border-none [&:first-child>td:first-child]:rounded-tl-lg [&:first-child>td:last-child]:rounded-tr-lg [&:last-child>td:first-child]:rounded-bl-lg [&:last-child>td:last-child]:rounded-br-lg">
+              <tr className="w-full border-b py-3 border-gray-100 text-sm last-of-type:border-none [&:first-child>td:first-child]:rounded-tl-lg [&:first-child>td:last-child]:rounded-tr-lg [&:last-child>td:first-child]:rounded-bl-lg [&:last-child>td:last-child]:rounded-br-lg">
                 <td className="whitespace-nowrap py-3 pl-6 pr-3">
                   <div className="flex items-center gap-3">
                     <Image
                       src="/food.png"
                       className="rounded-full"
-                      width={36}
-                      height={36}
+                      width={32}
+                      height={32}
                       alt={`'s profile picture`}
                     />
                     <p>Food</p>
